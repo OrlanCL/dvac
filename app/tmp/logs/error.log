@@ -1,0 +1,8 @@
+2012-04-08 06:07:36 Error: [MissingControllerException] Controller class InicoController could not be found.
+#0 C:\xampp\htdocs\dvac\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-08 06:07:40 Error: [MissingActionException] Action InicioController::index() could not be found.
+#0 C:\xampp\htdocs\dvac\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\dvac\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(InicioController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\dvac\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
